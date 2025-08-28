@@ -2,6 +2,7 @@ Aim: To study and implement calling functions in C++
 
 #Program a: This C++ program attempts to swap the values of two integer variables a and b using a function named swap. The function takes two integer arguments x and y, swaps their values locally within the function, and prints the swapped values of x and y. However, the original variables a and b in main() remain unchanged because the swap function works with copies of the arguments (call by value). After the function call, the program prints the values of a and b in main() which remain the same as before.  So, the program illustrates the concept of pass-by-value in C++, where changes made to parameters inside a function do not affect the original arguments.
 
+
 Algorithm:
 
 Step-1: Start
