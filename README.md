@@ -7,16 +7,27 @@ Algorithm:
 Step-1: Start
 
 Step-2: Declare and initialize two integers a = 5 and b = 2 in the main() function.
+
 Step-3: Call the function swap(a, b):
+
 Step-4: Inside the swap function:
+
 Step-5: Receive two parameters x and y (copies of a and b).
+
 Step-6: Create a temporary variable swap to hold the value of x.
+
 Step-7: Assign the value of y to x.
+
 Step-8: Assign the value of swap (original x) to y.
+
 Step-9: Print the swapped values of x and y.
+
 Step-10: End the function.
+
 Step-11: Back in main(), print the values of a and b.
+
 Step-12: End.
+
 #Program b: In this C++ program, the swap function uses pointers to swap the values of two integers. Instead of passing values directly, it receives the memory addresses of the variables (int *x, int *y). Inside the function, it dereferences these pointers (*x and *y) to access and modify the original variables' values. Because the actual memory locations of the variables are passed, the swap changes the original variables in the main() function. After the swap, the program prints the swapped values of x and y.
 
 Algorithm:
