@@ -5,6 +5,7 @@ Aim: To study and implement calling functions in C++
 Algorithm:
 
 Step-1: Start
+
 Step-2: Declare and initialize two integers a = 5 and b = 2 in the main() function.
 Step-3: Call the function swap(a, b):
 Step-4: Inside the swap function:
